@@ -27,8 +27,8 @@ import androidx.compose.ui.res.ImageVectorCache;
 import androidx.savedstate.Recreator;
 import androidx.savedstate.SavedStateRegistry;
 import androidx.savedstate.SavedStateRegistryOwner;
-import eu.malek.composesample2.R;
-import eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$1;
+import eu.malek.composesample.R;
+import eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$1;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -132,7 +132,7 @@ public abstract class AndroidCompositionLocals_androidKt {
             } catch (IllegalArgumentException unused) {
                 z2 = false;
             }
-            DisposableSaveableStateRegistry disposableSaveableStateRegistry = new DisposableSaveableStateRegistry(saveableStateRegistryImpl, new ThemeKt$ComposeSample2Theme$1(z2, savedStateRegistry, concat));
+            DisposableSaveableStateRegistry disposableSaveableStateRegistry = new DisposableSaveableStateRegistry(saveableStateRegistryImpl, new ThemeKt$ComposeSampleTheme$1(z2, savedStateRegistry, concat));
             composerImpl.updateValue(disposableSaveableStateRegistry);
             nextSlot4 = disposableSaveableStateRegistry;
             z = false;

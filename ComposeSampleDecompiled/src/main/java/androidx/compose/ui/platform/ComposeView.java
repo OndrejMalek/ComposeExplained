@@ -8,7 +8,7 @@ import androidx.compose.runtime.ParcelableSnapshotMutableState;
 import androidx.compose.runtime.RecomposeScopeImpl;
 import androidx.compose.runtime.StructuralEqualityPolicy;
 import androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat;
-import eu.malek.composesample2.MainActivityKt$Greetings$1;
+import eu.malek.composesample.MainActivityKt$Greetings$1;
 import kotlin.ResultKt;
 import kotlin.jvm.functions.Function2;
 

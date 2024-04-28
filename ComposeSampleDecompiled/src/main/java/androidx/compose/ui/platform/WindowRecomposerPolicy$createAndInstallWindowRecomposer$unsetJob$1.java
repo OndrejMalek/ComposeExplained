@@ -2,7 +2,7 @@ package androidx.compose.ui.platform;
 
 import android.view.View;
 import androidx.compose.runtime.Recomposer;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import kotlin.ResultKt;
 import kotlin.Unit;
 import kotlin.coroutines.Continuation;

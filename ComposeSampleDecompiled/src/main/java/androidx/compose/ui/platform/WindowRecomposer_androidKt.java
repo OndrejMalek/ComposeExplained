@@ -9,7 +9,7 @@ import android.os.Looper;
 import android.provider.Settings;
 import android.view.View;
 import androidx.compose.runtime.CompositionContext;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.LinkedHashMap;
 import kotlin.ResultKt;
 import kotlin.Unit;

@@ -53,7 +53,7 @@ import androidx.core.view.accessibility.AccessibilityNodeProviderCompat;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LifecycleRegistry;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;

@@ -13,7 +13,7 @@ import android.view.accessibility.AccessibilityNodeProvider;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeProviderCompat;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.lang.ref.WeakReference;
 import java.util.Collections;
 import java.util.List;

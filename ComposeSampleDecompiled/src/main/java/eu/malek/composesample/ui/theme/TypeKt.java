@@ -1,4 +1,4 @@
-package eu.malek.composesample2.ui.theme;
+package eu.malek.composesample.ui.theme;
 
 import androidx.compose.material3.Typography;
 import androidx.compose.ui.text.TextStyle;

@@ -1,7 +1,7 @@
 package androidx.savedstate;
 
 import android.view.View;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import kotlin.ResultKt;
 import kotlin.jvm.functions.Function1;
 import kotlin.jvm.internal.Lambda;

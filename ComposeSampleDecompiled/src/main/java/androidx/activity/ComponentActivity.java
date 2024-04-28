@@ -36,7 +36,7 @@ import androidx.lifecycle.ViewModelStoreOwner;
 import androidx.savedstate.SavedStateRegistry;
 import androidx.savedstate.SavedStateRegistryController;
 import androidx.savedstate.SavedStateRegistryOwner;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;

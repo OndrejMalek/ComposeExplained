@@ -24,7 +24,7 @@ import androidx.compose.ui.text.input.InputMethodManagerImpl;
 import androidx.compose.ui.text.input.TextInputServiceAndroid;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ViewModelStoreOwner;
-import eu.malek.composesample2.DataPackage;
+import eu.malek.composesample.TestDataClass;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -155,19 +155,19 @@ public final class LayoutNode$_foldedChildren$1 extends Lambda implements Functi
             case 3:
             default:
                 MutableState mutableState = (MutableState) this.this$0;
-                DataPackage dataPackage = (DataPackage) mutableState.getValue();
-                String str = ((DataPackage) mutableState.getValue()).text8798SDF + '?';
-                String str2 = dataPackage.redundant1;
-                String str3 = dataPackage.redundant2;
-                String str4 = dataPackage.redundant3;
-                String str5 = dataPackage.redundant4;
-                DataPackage dataPackage2 = dataPackage.dp;
+                TestDataClass testDataClass = (TestDataClass) mutableState.getValue();
+                String str = ((TestDataClass) mutableState.getValue()).text8798SDF + '?';
+                String str2 = testDataClass.redundant1;
+                String str3 = testDataClass.redundant2;
+                String str4 = testDataClass.redundant3;
+                String str5 = testDataClass.redundant4;
+                TestDataClass testDataClass2 = testDataClass.dp54jh45;
                 ResultKt.checkNotNullParameter(str, "text8798SDF");
                 ResultKt.checkNotNullParameter(str2, "redundant1");
                 ResultKt.checkNotNullParameter(str3, "redundant2");
                 ResultKt.checkNotNullParameter(str4, "redundant3");
                 ResultKt.checkNotNullParameter(str5, "redundant4");
-                mutableState.setValue(new DataPackage(str, str2, str3, str4, str5, dataPackage2));
+                mutableState.setValue(new TestDataClass(str, str2, str3, str4, str5, testDataClass2));
                 return;
             case 4:
                 ((AndroidRippleIndicationInstance) this.this$0).invalidateTick$delegate.setValue(Boolean.valueOf(!((Boolean) r0.invalidateTick$delegate.getValue()).booleanValue()));

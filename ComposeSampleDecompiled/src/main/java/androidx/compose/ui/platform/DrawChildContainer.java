@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.compose.ui.graphics.AndroidCanvas;
 import androidx.compose.ui.graphics.AndroidCanvas_androidKt;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import kotlin.ResultKt;
 
 /* loaded from: classes.dex */

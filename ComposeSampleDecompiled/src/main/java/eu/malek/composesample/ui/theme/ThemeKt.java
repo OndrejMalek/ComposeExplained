@@ -1,4 +1,4 @@
-package eu.malek.composesample2.ui.theme;
+package eu.malek.composesample.ui.theme;
 
 import androidx.compose.material3.ColorScheme;
 import androidx.compose.material3.ColorSchemeKt;
@@ -22,7 +22,7 @@ public abstract class ThemeKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct add '--show-bad-code' argument
     */
-    public static final void ComposeSample2Theme(boolean r58, boolean r59, final kotlin.jvm.functions.Function2 r60, androidx.compose.runtime.Composer r61, final int r62, final int r63) {
+    public static final void ComposeSampleTheme(boolean r58, boolean r59, final kotlin.jvm.functions.Function2 r60, androidx.compose.runtime.Composer r61, final int r62, final int r63) {
         /*
             r7 = r60
             r8 = r62
@@ -30,7 +30,7 @@ public abstract class ThemeKt {
             kotlin.ResultKt.checkNotNullParameter(r7, r0)
             r9 = r61
             androidx.compose.runtime.ComposerImpl r9 = (androidx.compose.runtime.ComposerImpl) r9
-            r0 = -868416647(0xffffffffcc3d0379, float:-4.9548772E7)
+            r0 = 842477529(0x32372fd9, float:1.0662881E-8)
             r9.startRestartGroup(r0)
             r0 = r8 & 14
             if (r0 != 0) goto L2a
@@ -140,7 +140,7 @@ public abstract class ThemeKt {
             r12 = r6
         Lae:
             r9.endDefaults()
-            r0 = -886036189(0xffffffffcb302923, float:-1.1544867E7)
+            r0 = -681483341(0xffffffffd76163b3, float:-2.47818321E14)
             r9.startReplaceableGroup(r0)
             if (r12 == 0) goto L188
             int r0 = android.os.Build.VERSION.SDK_INT
@@ -245,20 +245,20 @@ public abstract class ThemeKt {
             goto L18f
         L188:
             if (r11 == 0) goto L18d
-            androidx.compose.material3.ColorScheme r0 = eu.malek.composesample2.ui.theme.ThemeKt.DarkColorScheme
+            androidx.compose.material3.ColorScheme r0 = eu.malek.composesample.ui.theme.ThemeKt.DarkColorScheme
             goto L18f
         L18d:
-            androidx.compose.material3.ColorScheme r0 = eu.malek.composesample2.ui.theme.ThemeKt.LightColorScheme
+            androidx.compose.material3.ColorScheme r0 = eu.malek.composesample.ui.theme.ThemeKt.LightColorScheme
         L18f:
             r9.end(r10)
             androidx.compose.runtime.StaticProvidableCompositionLocal r2 = androidx.compose.ui.platform.AndroidCompositionLocals_androidKt.LocalView
             java.lang.Object r2 = r9.consume(r2)
             android.view.View r2 = (android.view.View) r2
-            r3 = -886035838(0xffffffffcb302a82, float:-1.1545218E7)
+            r3 = -681482990(0xffffffffd7616512, float:-2.4782421E14)
             r9.startReplaceableGroup(r3)
             boolean r3 = r2.isInEditMode()
             if (r3 != 0) goto L1bc
-            eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$1 r3 = new eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$1
+            eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$1 r3 = new eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$1
             r3.<init>(r2, r0, r11)
             r2 = -1288466761(0xffffffffb3338eb7, float:-4.1806484E-8)
             r9.startReplaceableGroup(r2)
@@ -268,7 +268,7 @@ public abstract class ThemeKt {
             r9.end(r10)
         L1bc:
             r9.end(r10)
-            androidx.compose.material3.Typography r2 = eu.malek.composesample2.ui.theme.TypeKt.Typography
+            androidx.compose.material3.Typography r2 = eu.malek.composesample.ui.theme.TypeKt.Typography
             int r1 = r1 << 3
             r1 = r1 & 7168(0x1c00, float:1.0045E-41)
             r5 = r1 | 384(0x180, float:5.38E-43)
@@ -284,7 +284,7 @@ public abstract class ThemeKt {
             if (r6 != 0) goto L1d8
             goto L1e6
         L1d8:
-            eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$2 r9 = new eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$2
+            eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$2 r9 = new eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$2
             r0 = r9
             r3 = r60
             r4 = r62
@@ -294,6 +294,6 @@ public abstract class ThemeKt {
         L1e6:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: eu.malek.composesample2.ui.theme.ThemeKt.ComposeSample2Theme(boolean, boolean, kotlin.jvm.functions.Function2, androidx.compose.runtime.Composer, int, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: eu.malek.composesample.ui.theme.ThemeKt.ComposeSampleTheme(boolean, boolean, kotlin.jvm.functions.Function2, androidx.compose.runtime.Composer, int, int):void");
     }
 }

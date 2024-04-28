@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="androidx_startup">androidx.startup</string>
-    <string name="app_name">ComposeSample2</string>
+    <string name="app_name">ComposeSample</string>
     <string name="bottom_sheet_collapse_description">Collapse bottom sheet</string>
     <string name="bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
     <string name="bottom_sheet_drag_handle_description">Drag handle</string>

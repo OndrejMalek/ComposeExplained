@@ -3323,12 +3323,12 @@ public abstract class _BOUNDARY {
     }
 
     public static final PoolingContainerListenerHolder getPoolingContainerListenerHolder(View view) {
-        PoolingContainerListenerHolder poolingContainerListenerHolder = (PoolingContainerListenerHolder) view.getTag(eu.malek.composesample2.R.id.pooling_container_listener_holder_tag);
+        PoolingContainerListenerHolder poolingContainerListenerHolder = (PoolingContainerListenerHolder) view.getTag(eu.malek.composesample.R.id.pooling_container_listener_holder_tag);
         if (poolingContainerListenerHolder != null) {
             return poolingContainerListenerHolder;
         }
         PoolingContainerListenerHolder poolingContainerListenerHolder2 = new PoolingContainerListenerHolder();
-        view.setTag(eu.malek.composesample2.R.id.pooling_container_listener_holder_tag, poolingContainerListenerHolder2);
+        view.setTag(eu.malek.composesample.R.id.pooling_container_listener_holder_tag, poolingContainerListenerHolder2);
         return poolingContainerListenerHolder2;
     }
 

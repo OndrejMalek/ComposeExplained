@@ -2,7 +2,7 @@ package androidx.compose.ui.platform;
 
 import androidx.compose.runtime.saveable.SaveableStateRegistry;
 import androidx.compose.runtime.saveable.SaveableStateRegistryImpl;
-import eu.malek.composesample2.ui.theme.ThemeKt$ComposeSample2Theme$1;
+import eu.malek.composesample.ui.theme.ThemeKt$ComposeSampleTheme$1;
 import java.util.Map;
 import kotlin.jvm.functions.Function0;
 
@@ -11,8 +11,8 @@ public final class DisposableSaveableStateRegistry implements SaveableStateRegis
     public final /* synthetic */ SaveableStateRegistry $$delegate_0;
     public final Function0 onDispose;
 
-    public DisposableSaveableStateRegistry(SaveableStateRegistryImpl saveableStateRegistryImpl, ThemeKt$ComposeSample2Theme$1 themeKt$ComposeSample2Theme$1) {
-        this.onDispose = themeKt$ComposeSample2Theme$1;
+    public DisposableSaveableStateRegistry(SaveableStateRegistryImpl saveableStateRegistryImpl, ThemeKt$ComposeSampleTheme$1 themeKt$ComposeSampleTheme$1) {
+        this.onDispose = themeKt$ComposeSampleTheme$1;
         this.$$delegate_0 = saveableStateRegistryImpl;
     }
 

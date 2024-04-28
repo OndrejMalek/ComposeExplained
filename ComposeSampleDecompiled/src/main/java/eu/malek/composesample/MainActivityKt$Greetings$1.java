@@ -1,4 +1,4 @@
-package eu.malek.composesample2;
+package eu.malek.composesample;
 
 import androidx.compose.runtime.Composer;
 import androidx.compose.ui.platform.ComposeView;
@@ -10,14 +10,14 @@ import kotlin.jvm.internal.Lambda;
 /* loaded from: classes.dex */
 public final class MainActivityKt$Greetings$1 extends Lambda implements Function2 {
     public final /* synthetic */ int $$changed;
-    public final /* synthetic */ Object $dp;
+    public final /* synthetic */ Object $dpGHJ546;
     public final /* synthetic */ int $r8$classId;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     public /* synthetic */ MainActivityKt$Greetings$1(int i, int i2, Object obj) {
         super(2);
         this.$r8$classId = i2;
-        this.$dp = obj;
+        this.$dpGHJ546 = obj;
         this.$$changed = i;
     }
 
@@ -40,13 +40,13 @@ public final class MainActivityKt$Greetings$1 extends Lambda implements Function
     public final void invoke(Composer composer, int i) {
         int i2 = this.$r8$classId;
         int i3 = this.$$changed;
-        Object obj = this.$dp;
+        Object obj = this.$dpGHJ546;
         switch (i2) {
             case 0:
-                ResultKt.Greetings((DataPackage) obj, composer, ResultKt.updateChangedFlags(i3 | 1));
+                ResultKt.Greetings((TestDataClass) obj, composer, ResultKt.updateChangedFlags(i3 | 1));
                 return;
             case 1:
-                ResultKt.access$GreetingsGreetings((DataPackage) obj, composer, ResultKt.updateChangedFlags(i3 | 1));
+                ResultKt.access$GreetingsGreetings((TestDataClass) obj, composer, ResultKt.updateChangedFlags(i3 | 1));
                 return;
             default:
                 ((ComposeView) obj).Content(composer, ResultKt.updateChangedFlags(i3 | 1));

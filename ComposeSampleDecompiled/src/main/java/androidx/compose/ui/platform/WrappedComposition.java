@@ -5,7 +5,7 @@ import androidx.compose.runtime.CompositionImpl;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleEventObserver;
 import androidx.lifecycle.LifecycleOwner;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import kotlin.ResultKt;
 import kotlin.jvm.functions.Function2;
 

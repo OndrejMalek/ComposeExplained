@@ -1,4 +1,4 @@
-package eu.malek.composesample2.ui.theme;
+package eu.malek.composesample.ui.theme;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,14 +18,14 @@ import kotlin.jvm.functions.Function0;
 import kotlin.jvm.internal.Lambda;
 
 /* loaded from: classes.dex */
-public final class ThemeKt$ComposeSample2Theme$1 extends Lambda implements Function0 {
+public final class ThemeKt$ComposeSampleTheme$1 extends Lambda implements Function0 {
     public final /* synthetic */ Object $colorScheme;
     public final /* synthetic */ boolean $darkTheme;
     public final /* synthetic */ int $r8$classId = 0;
     public final /* synthetic */ Object $view;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    public ThemeKt$ComposeSample2Theme$1(View view, ColorScheme colorScheme, boolean z) {
+    public ThemeKt$ComposeSampleTheme$1(View view, ColorScheme colorScheme, boolean z) {
         super(0);
         this.$view = view;
         this.$colorScheme = colorScheme;
@@ -46,7 +46,7 @@ public final class ThemeKt$ComposeSample2Theme$1 extends Lambda implements Funct
     }
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    public ThemeKt$ComposeSample2Theme$1(boolean z, SavedStateRegistry savedStateRegistry, String str) {
+    public ThemeKt$ComposeSampleTheme$1(boolean z, SavedStateRegistry savedStateRegistry, String str) {
         super(0);
         this.$darkTheme = z;
         this.$view = savedStateRegistry;

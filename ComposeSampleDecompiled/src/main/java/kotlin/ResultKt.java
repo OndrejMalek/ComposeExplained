@@ -76,8 +76,8 @@ import androidx.core.content.res.FontResourcesParserCompat$Api21Impl;
 import androidx.emoji2.text.MetadataRepo;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewTreeLifecycleOwner$findViewTreeLifecycleOwner$1;
-import eu.malek.composesample2.DataPackage;
-import eu.malek.composesample2.MainActivityKt$Greetings$1;
+import eu.malek.composesample.MainActivityKt$Greetings$1;
+import eu.malek.composesample.TestDataClass;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.File;
@@ -229,22 +229,22 @@ public abstract class ResultKt implements MouseSelectionObserver {
         return floatToIntBits;
     }
 
-    public static final void Greeting(final String str, Modifier modifier, final DataPackage dataPackage, Composer composer, final int i, final int i2) {
-        checkNotNullParameter(str, "name");
+    public static final void Greeting(final String str, Modifier modifier, final TestDataClass testDataClass, Composer composer, final int i, final int i2) {
+        checkNotNullParameter(str, "textFhfg78");
         ComposerImpl composerImpl = (ComposerImpl) composer;
-        composerImpl.startRestartGroup(-77264019);
+        composerImpl.startRestartGroup(-1025646789);
         final Modifier modifier2 = (i2 & 2) != 0 ? Modifier.Companion.$$INSTANCE : modifier;
         int i3 = i & 112;
         TextKt.m58Text4IGK_g(str.concat("!"), modifier2, 0L, 0L, null, null, null, 0L, null, null, 0L, 0, false, 0, 0, null, null, composerImpl, i3, 0, 131068);
         StringBuilder sb = new StringBuilder("dp=");
-        sb.append(dataPackage != null ? dataPackage.text8798SDF : null);
+        sb.append(testDataClass != null ? testDataClass.text8798SDF : null);
         sb.append("}!");
         TextKt.m58Text4IGK_g(sb.toString(), modifier2, 0L, 0L, null, null, null, 0L, null, null, 0L, 0, false, 0, 0, null, null, composerImpl, i3, 0, 131068);
         RecomposeScopeImpl endRestartGroup = composerImpl.endRestartGroup();
         if (endRestartGroup == null) {
             return;
         }
-        endRestartGroup.block = new Function2() { // from class: eu.malek.composesample2.MainActivityKt$Greeting$1
+        endRestartGroup.block = new Function2() { // from class: eu.malek.composesample.MainActivityKt$Greeting$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(2);
@@ -255,37 +255,37 @@ public abstract class ResultKt implements MouseSelectionObserver {
                 ((Number) obj2).intValue();
                 int updateChangedFlags = ResultKt.updateChangedFlags(i | 1);
                 Modifier modifier3 = modifier2;
-                DataPackage dataPackage2 = dataPackage;
-                ResultKt.Greeting(str, modifier3, dataPackage2, (Composer) obj, updateChangedFlags, i2);
+                TestDataClass testDataClass2 = testDataClass;
+                ResultKt.Greeting(str, modifier3, testDataClass2, (Composer) obj, updateChangedFlags, i2);
                 return Unit.INSTANCE;
             }
         };
     }
 
-    public static final void Greetings(DataPackage dataPackage, Composer composer, int i) {
+    public static final void Greetings(TestDataClass testDataClass, Composer composer, int i) {
         ComposerImpl composerImpl = (ComposerImpl) composer;
-        composerImpl.startRestartGroup(-1939377972);
+        composerImpl.startRestartGroup(1378362812);
         StringBuilder sb = new StringBuilder();
-        sb.append(dataPackage != null ? dataPackage.text8798SDF : null);
+        sb.append(testDataClass != null ? testDataClass.text8798SDF : null);
         sb.append('0');
-        Greeting(sb.toString(), null, dataPackage, composerImpl, 512, 2);
+        Greeting(sb.toString(), null, testDataClass, composerImpl, 512, 2);
         StringBuilder sb2 = new StringBuilder();
-        sb2.append(dataPackage != null ? dataPackage.text8798SDF : null);
+        sb2.append(testDataClass != null ? testDataClass.text8798SDF : null);
         sb2.append('1');
-        Greeting(sb2.toString(), null, dataPackage, composerImpl, 512, 2);
+        Greeting(sb2.toString(), null, testDataClass, composerImpl, 512, 2);
         StringBuilder sb3 = new StringBuilder();
-        sb3.append(dataPackage != null ? dataPackage.text8798SDF : null);
+        sb3.append(testDataClass != null ? testDataClass.text8798SDF : null);
         sb3.append('2');
-        Greeting(sb3.toString(), null, dataPackage, composerImpl, 512, 2);
+        Greeting(sb3.toString(), null, testDataClass, composerImpl, 512, 2);
         StringBuilder sb4 = new StringBuilder();
-        sb4.append(dataPackage != null ? dataPackage.text8798SDF : null);
+        sb4.append(testDataClass != null ? testDataClass.text8798SDF : null);
         sb4.append('3');
-        Greeting(sb4.toString(), null, dataPackage, composerImpl, 512, 2);
+        Greeting(sb4.toString(), null, testDataClass, composerImpl, 512, 2);
         RecomposeScopeImpl endRestartGroup = composerImpl.endRestartGroup();
         if (endRestartGroup == null) {
             return;
         }
-        endRestartGroup.block = new MainActivityKt$Greetings$1(i, 0, dataPackage);
+        endRestartGroup.block = new MainActivityKt$Greetings$1(i, 0, testDataClass);
     }
 
     public static final long IntOffset(int i, int i2) {
@@ -298,17 +298,17 @@ public abstract class ResultKt implements MouseSelectionObserver {
         return (i2 & 4294967295L) | (i << 32);
     }
 
-    public static final void access$GreetingsGreetings(DataPackage dataPackage, Composer composer, int i) {
+    public static final void access$GreetingsGreetings(TestDataClass testDataClass, Composer composer, int i) {
         ComposerImpl composerImpl = (ComposerImpl) composer;
-        composerImpl.startRestartGroup(244041774);
-        Greetings(dataPackage, composerImpl, 8);
-        Greetings(dataPackage, composerImpl, 8);
-        Greetings(dataPackage != null ? dataPackage.dp : null, composerImpl, 8);
+        composerImpl.startRestartGroup(344898202);
+        Greetings(testDataClass, composerImpl, 8);
+        Greetings(testDataClass, composerImpl, 8);
+        Greetings(testDataClass != null ? testDataClass.dp54jh45 : null, composerImpl, 8);
         RecomposeScopeImpl endRestartGroup = composerImpl.endRestartGroup();
         if (endRestartGroup == null) {
             return;
         }
-        endRestartGroup.block = new MainActivityKt$Greetings$1(i, 1, dataPackage);
+        endRestartGroup.block = new MainActivityKt$Greetings$1(i, 1, testDataClass);
     }
 
     public static final void access$checkIndex(int i, List list) {
@@ -338,10 +338,6 @@ public abstract class ResultKt implements MouseSelectionObserver {
 
     public static final int access$dataAnchor(int[] iArr, int i) {
         return iArr[(i * 5) + 4];
-    }
-
-    public static final DataPackage access$dataPackageOf() {
-        return new DataPackage("Greeting", "", "", "", "", new DataPackage("sub", "", "", "", "", null));
     }
 
     public static final int access$groupSize(int[] iArr, int i) {
@@ -2204,6 +2200,10 @@ public abstract class ResultKt implements MouseSelectionObserver {
     public static IntProgression step(IntRange intRange) {
         checkNotNullParameter(intRange, "<this>");
         return new IntProgression(intRange.first, intRange.last, intRange.step > 0 ? 2 : -2);
+    }
+
+    public static final TestDataClass testDataClassOf() {
+        return new TestDataClass("Greeting", "", "", "", "", new TestDataClass("sub", "", "", "", "", null));
     }
 
     public static void throwCce(Object obj, String str) {

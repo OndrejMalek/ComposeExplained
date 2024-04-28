@@ -51,7 +51,7 @@ public final class DrawResult implements HapticFeedback, PlatformTypefaces {
         throw new IllegalArgumentException("Can't represent a size of " + i + " in Constraints");
     }
 
-    /* renamed from: createAndroidTypefaceApi28-RetOiIg */
+    /* renamed from: createAndroidTypefaceApi28-RetOiIg, reason: not valid java name */
     public static Typeface m64createAndroidTypefaceApi28RetOiIg(String str, FontWeight fontWeight, int i) {
         if (FontStyle.m258equalsimpl0(i, 0) && ResultKt.areEqual(fontWeight, FontWeight.Normal) && (str == null || str.length() == 0)) {
             Typeface typeface = Typeface.DEFAULT;
@@ -63,7 +63,7 @@ public final class DrawResult implements HapticFeedback, PlatformTypefaces {
         return create;
     }
 
-    /* renamed from: createConstraints-Zbe2FdA$ui_unit_release */
+    /* renamed from: createConstraints-Zbe2FdA$ui_unit_release, reason: not valid java name */
     public static long m65createConstraintsZbe2FdA$ui_unit_release(int i, int i2, int i3, int i4) {
         long j;
         int i5 = i4 == Integer.MAX_VALUE ? i3 : i4;
@@ -95,7 +95,7 @@ public final class DrawResult implements HapticFeedback, PlatformTypefaces {
         return (f * f4) - (f2 * f3);
     }
 
-    /* renamed from: fixed-JhjzzOo */
+    /* renamed from: fixed-JhjzzOo, reason: not valid java name */
     public static long m66fixedJhjzzOo(int i, int i2) {
         if (i >= 0 && i2 >= 0) {
             return m65createConstraintsZbe2FdA$ui_unit_release(i, i, i2, i2);

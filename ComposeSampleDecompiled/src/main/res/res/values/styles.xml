@@ -20,7 +20,7 @@
     </style>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
     </style>
-    <style name="Theme.ComposeSample2" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.ComposeSample" parent="@android:style/Theme.Material.Light.NoActionBar">
     </style>
     <style name="Widget.Compat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>

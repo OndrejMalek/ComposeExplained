@@ -3,7 +3,7 @@ package androidx.startup;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Trace;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;

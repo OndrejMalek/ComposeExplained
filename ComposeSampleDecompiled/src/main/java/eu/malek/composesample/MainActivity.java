@@ -1,4 +1,4 @@
-package eu.malek.composesample2;
+package eu.malek.composesample;
 
 import android.R;
 import android.os.Bundle;

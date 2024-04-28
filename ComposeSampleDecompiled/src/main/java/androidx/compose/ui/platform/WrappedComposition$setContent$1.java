@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.drawscope.ContentDrawScope;
 import androidx.compose.ui.graphics.drawscope.Fill;
 import androidx.compose.ui.layout.Placeable;
 import androidx.compose.ui.node.LayoutNodeDrawScope;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.Set;
 import kotlin.ResultKt;
 import kotlin.Unit;

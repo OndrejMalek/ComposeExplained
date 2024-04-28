@@ -3,7 +3,7 @@ package androidx.core.view;
 import android.view.View;
 import androidx.collection.SimpleArrayMap;
 import androidx.core.view.autofill.AutofillIdCompat;
-import eu.malek.composesample2.R;
+import eu.malek.composesample.R;
 import java.util.Objects;
 import java.util.WeakHashMap;
 

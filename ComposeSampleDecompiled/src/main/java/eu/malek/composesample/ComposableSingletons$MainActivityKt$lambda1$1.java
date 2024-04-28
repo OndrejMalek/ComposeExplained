@@ -1,4 +1,4 @@
-package eu.malek.composesample2;
+package eu.malek.composesample;
 
 import _COROUTINE._BOUNDARY;
 import androidx.compose.foundation.layout.Arrangement;
@@ -54,8 +54,7 @@ import androidx.compose.ui.semantics.SemanticsPropertyReceiver;
 import androidx.compose.ui.unit.Density;
 import androidx.compose.ui.unit.Dp;
 import androidx.compose.ui.unit.LayoutDirection;
-import eu.malek.composesample2.DataPackage;
-import eu.malek.composesample2.ui.theme.ThemeKt;
+import eu.malek.composesample.ui.theme.ThemeKt;
 import java.util.concurrent.atomic.AtomicInteger;
 import kotlin.ResultKt;
 import kotlin.Unit;
@@ -68,7 +67,7 @@ import kotlin.jvm.functions.Function3;
 import kotlin.jvm.internal.Lambda;
 import kotlin.reflect.KProperty;
 
-/* renamed from: eu.malek.composesample2.ComposableSingletons$MainActivityKt$lambda-1$1, reason: invalid class name */
+/* renamed from: eu.malek.composesample.ComposableSingletons$MainActivityKt$lambda-1$1, reason: invalid class name */
 /* loaded from: classes.dex */
 public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda implements Function2 {
     public static final ComposableSingletons$MainActivityKt$lambda1$1 INSTANCE = new ComposableSingletons$MainActivityKt$lambda1$1(0);
@@ -102,7 +101,7 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
         }
     }
 
-    /* JADX WARN: Type inference failed for: r2v11, types: [kotlinx.coroutines.sync.MutexImpl$onSelectCancellationUnlockConstructor$1, kotlin.jvm.internal.Lambda] */
+    /* JADX WARN: Type inference failed for: r2v11, types: [eu.malek.composesample.ComposableSingletons$MainActivityKt$lambda-1$1$1$2, kotlin.jvm.internal.Lambda] */
     /* JADX WARN: Type inference failed for: r3v79, types: [androidx.compose.material3.SurfaceKt$Surface$1, kotlin.jvm.internal.Lambda] */
     public final void invoke(Composer composer, int i) {
         Object obj;
@@ -122,7 +121,7 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
                 Object nextSlot = composerImpl2.nextSlot();
                 Object obj2 = Composer.Companion.Empty;
                 if (nextSlot == obj2) {
-                    nextSlot = ResultKt.mutableStateOf(ResultKt.access$dataPackageOf(), StructuralEqualityPolicy.INSTANCE);
+                    nextSlot = ResultKt.mutableStateOf(ResultKt.testDataClassOf(), StructuralEqualityPolicy.INSTANCE);
                     composerImpl2.updateValue(nextSlot);
                 }
                 composerImpl2.end(false);
@@ -177,7 +176,7 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
                         composerImpl2.updateValue(nextSlot3);
                     }
                     composerImpl2.end(false);
-                    _BOUNDARY.Button((Function0) nextSlot3, null, false, null, null, null, null, null, ResultKt.composableLambda(composerImpl2, -950399869, new Function3() { // from class: kotlinx.coroutines.sync.MutexImpl$onSelectCancellationUnlockConstructor$1
+                    _BOUNDARY.Button((Function0) nextSlot3, null, false, null, null, null, null, null, ResultKt.composableLambda(composerImpl2, -572790939, new Function3() { // from class: eu.malek.composesample.ComposableSingletons$MainActivityKt$lambda-1$1$1$2
                         /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
                         {
                             super(3);
@@ -195,16 +194,16 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
                                     return Unit.INSTANCE;
                                 }
                             }
-                            TextKt.m58Text4IGK_g(((DataPackage) ((MutableState) mutableState).getValue()).text8798SDF, null, 0L, 0L, null, null, null, 0L, null, null, 0L, 0, false, 0, 0, null, null, composer2, 0, 0, 131070);
+                            TextKt.m58Text4IGK_g(((TestDataClass) ((MutableState) mutableState).getValue()).text8798SDF, null, 0L, 0L, null, null, null, 0L, null, null, 0L, 0, false, 0, 0, null, null, composer2, 0, 0, 131070);
                             return Unit.INSTANCE;
                         }
                     }), composerImpl2, 805306368, 510);
-                    ResultKt.Greeting(((DataPackage) mutableState.getValue()).text8798SDF + "_0", null, (DataPackage) mutableState.getValue(), composerImpl2, 512, 2);
-                    ResultKt.Greeting(((DataPackage) mutableState.getValue()).text8798SDF + "_1", null, (DataPackage) mutableState.getValue(), composerImpl2, 512, 2);
-                    ResultKt.Greeting(((DataPackage) mutableState.getValue()).text8798SDF + "_2", null, (DataPackage) mutableState.getValue(), composerImpl2, 512, 2);
-                    ResultKt.Greeting(((DataPackage) mutableState.getValue()).text8798SDF + "_3", null, (DataPackage) mutableState.getValue(), composerImpl2, 512, 2);
-                    ResultKt.Greetings((DataPackage) mutableState.getValue(), composerImpl2, 8);
-                    ResultKt.access$GreetingsGreetings((DataPackage) mutableState.getValue(), composerImpl2, 8);
+                    ResultKt.Greeting(((TestDataClass) mutableState.getValue()).text8798SDF + "_0", null, (TestDataClass) mutableState.getValue(), composerImpl2, 512, 2);
+                    ResultKt.Greeting(((TestDataClass) mutableState.getValue()).text8798SDF + "_1", null, (TestDataClass) mutableState.getValue(), composerImpl2, 512, 2);
+                    ResultKt.Greeting(((TestDataClass) mutableState.getValue()).text8798SDF + "_2", null, (TestDataClass) mutableState.getValue(), composerImpl2, 512, 2);
+                    ResultKt.Greeting(((TestDataClass) mutableState.getValue()).text8798SDF + "_3", null, (TestDataClass) mutableState.getValue(), composerImpl2, 512, 2);
+                    ResultKt.Greetings((TestDataClass) mutableState.getValue(), composerImpl2, 8);
+                    ResultKt.access$GreetingsGreetings((TestDataClass) mutableState.getValue(), composerImpl2, 8);
                     composerImpl2.end(false);
                     composerImpl2.end(true);
                     composerImpl2.end(false);
@@ -382,7 +381,7 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
                         return;
                     }
                 }
-                ThemeKt.ComposeSample2Theme(false, false, ComposableSingletons$MainActivityKt.f2lambda2, composer, 384, 3);
+                ThemeKt.ComposeSampleTheme(false, false, ComposableSingletons$MainActivityKt.f2lambda2, composer, 384, 3);
                 return;
             default:
                 if ((i & 11) == 2) {
@@ -392,7 +391,7 @@ public final class ComposableSingletons$MainActivityKt$lambda1$1 extends Lambda 
                         return;
                     }
                 }
-                ResultKt.Greeting("Android", null, ResultKt.access$dataPackageOf(), composer, 518, 2);
+                ResultKt.Greeting("Android", null, ResultKt.testDataClassOf(), composer, 518, 2);
                 return;
         }
     }
