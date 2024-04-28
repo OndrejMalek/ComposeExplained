@@ -1,4 +1,4 @@
-package eu.malek.composesample2
+package eu.malek.composesample
 
 import org.junit.Test
 

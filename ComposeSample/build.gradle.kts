@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "eu.malek.composesample2"
+    namespace = "eu.malek.composesample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "eu.malek.composesample2"
+        applicationId = "eu.malek.composesample"
         minSdk = 28
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package eu.malek.composesample2.ui.theme
+package eu.malek.composesample.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun ComposeSample2Theme(
+fun ComposeSampleTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

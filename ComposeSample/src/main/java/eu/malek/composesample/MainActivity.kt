@@ -1,4 +1,4 @@
-package eu.malek.composesample2
+package eu.malek.composesample
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,13 +16,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import eu.malek.composesample2.ui.theme.ComposeSample2Theme
+import eu.malek.composesample.ui.theme.ComposeSampleTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeSample2Theme {
+            ComposeSampleTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
 
@@ -97,7 +97,7 @@ fun Greeting(textFhfg78: String, modifier: Modifier = Modifier, dp5xcv: TestData
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ComposeSample2Theme {
+    ComposeSampleTheme {
         Greeting("Android", dp5xcv = testDataClassOf())
     }
 }

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "eu.malek.composesample2",
+  "applicationId": "eu.malek.composesample",
   "variantName": "release",
   "elements": [
     {

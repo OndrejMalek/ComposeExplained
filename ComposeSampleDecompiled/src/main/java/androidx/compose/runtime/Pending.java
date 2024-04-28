@@ -26,15 +26,16 @@ public final class Pending {
         HashMap hashMap = new HashMap();
         int size = arrayList.size();
         int i2 = 0;
-        for (int i3 = 0; i3 < size; i3++) {
-            KeyInfo keyInfo = (KeyInfo) this.keyInfos.get(i3);
+        int i3 = 0;
+        for (int i4 = 0; i4 < size; i4++) {
+            KeyInfo keyInfo = (KeyInfo) this.keyInfos.get(i4);
             Integer valueOf = Integer.valueOf(keyInfo.location);
-            int i4 = keyInfo.nodes;
-            hashMap.put(valueOf, new GroupInfo(i3, i2, i4));
-            i2 += i4;
+            int i5 = keyInfo.nodes;
+            hashMap.put(valueOf, new GroupInfo(i4, i3, i5));
+            i3 += i5;
         }
         this.groupInfos = hashMap;
-        this.keyMap$delegate = new SynchronizedLazyImpl(new Pending$keyMap$2(0, this));
+        this.keyMap$delegate = new SynchronizedLazyImpl(new Pending$keyMap$2(i2, this));
     }
 
     public final int nodePositionOf(KeyInfo keyInfo) {
