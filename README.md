@@ -8,11 +8,12 @@ Code obfuscation is disabled by `-dontobfuscate` in [proguard-rules.pro](Compose
 
 **Decompile cmd:**
 ```
-\rm -r ./ComposeSampleDecompiled/src/main/java/* ;\
-\rm -r ./ComposeSampleDecompiled/src/main/res/* ;\
+./gradlew :ComposeSample:assembleRelease && \
+\rm -rf ComposeSampleDecompiled/src/main/java/* ;\
+\rm -rf ComposeSampleDecompiled/src/main/res/* ;\
 jadx \
 --comments-level debug \
---output-dir-src ./ComposeSampleDecompiled/src/main/java/ \
---output-dir-res ./ComposeSampleDecompiled/src/main/res \
-./ComposeSample/release/app-release.apk
+--output-dir-src ComposeSampleDecompiled/src/main/java/ \
+--output-dir-res ComposeSampleDecompiled/src/main/res \
+ComposeSample/build/outputs/apk/release/ComposeSample-release.apk
 ```

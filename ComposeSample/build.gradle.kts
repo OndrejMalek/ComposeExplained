@@ -4,6 +4,16 @@ plugins {
 }
 
 android {
+
+    signingConfigs {
+        create("release") {
+            keyAlias = "key0"
+            keyPassword = "123456"
+            storeFile = File(rootDir,"TestReleaseKey.jks")
+            storePassword = "123456"
+        }
+    }
+
     namespace = "eu.malek.composesample"
     compileSdk = 34
 
@@ -25,6 +35,8 @@ android {
             isMinifyEnabled = true
 
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
